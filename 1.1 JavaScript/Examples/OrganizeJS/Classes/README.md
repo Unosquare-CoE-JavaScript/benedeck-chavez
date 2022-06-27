@@ -1,13 +1,13 @@
-## <a id="declaring-variables"></a> Declaring and Using Variables
+## <a id="declaring-variables"></a> Classes
 
-Expected output of the file Example1:
+Expected output of the file [Example1.js](./Example1.js):
 
 ```
 Arithmetic: + - * / ...
 Trigonometry: sin cos tan ...
 ```
 
-Expected output of the file Example2:
+Expected output of the file [Example2.js](./Example2.js):
 
 ```
     Title:You Don't Know JS

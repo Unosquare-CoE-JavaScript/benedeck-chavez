@@ -1,6 +1,6 @@
-## <a id="declaring-variables"></a> Declaring and Using Variables
+## Declaring and Using Variables
 
-Expected output of the file:
+Expected output of the file [index.js](./index.js):
 
 ```
 Shhh, this is a secret!

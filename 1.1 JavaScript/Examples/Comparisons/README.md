@@ -1,6 +1,6 @@
-## <a id="declaring-variables"></a> Declaring and Using Variables
+## Comparisions
 
-Expected output of the file:
+Expected output of the file [index.js](./index.js):
 
 ```
 3 === 3.0 true
