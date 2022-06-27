@@ -42,7 +42,14 @@ The summary of 3 main pillars of JS
 - [Pillar 2: Prototypes](./Notebook/4.%20The%20BiggerPicture.md#prototypes)
 - [Pillar 3: Types and Coercion](./Notebook/4.%20The%20BiggerPicture.md#typesAndCoercion)
 
-## 5. [Code Examples](./Examples/)
+## 5. [Appendix A: ExploringFurther](./Notebook/5.%20Appendix%20A%3A%20ExploringFurther.md)
+
+1. [Values vs. References](./Notebook/5.%20Appendix%20A%3A%20ExploringFurther.md#valuesVSReferences)
+2. [So Many Function Forms](./Notebook/5.%20Appendix%20A%3A%20ExploringFurther.md#functionForms)
+3. [Coercive Conditional Comparison](./Notebook/5.%20Appendix%20A%3A%20ExploringFurther.md#coerciveConditionalComparison)
+4. [Prototypal “Classes”](./Notebook/5.%20Appendix%20A%3A%20ExploringFurther.md#prototypalClasses)
+
+## 7. [Code Examples](./Examples/)
 
 - [Variables](./Examples/Variables/)
 - [Comparisons](./Examples/Comparisons/)
@@ -52,3 +59,4 @@ The summary of 3 main pillars of JS
 - [Closure](./Examples/Closure/)
 - [This](./Examples/This/)
 - [Prototypes](./Examples/Prototypes/)
+- [values vs references](./Examples/valuesVSreferences/)
