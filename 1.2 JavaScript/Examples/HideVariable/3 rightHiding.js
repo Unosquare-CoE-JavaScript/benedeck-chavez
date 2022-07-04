@@ -8,6 +8,8 @@ var factorial = (function hideTheCache() {
     if (!(x in cache)) {
       cache[x] = x * factorial(x - 1);
     }
+    console.log(cache);
+
     return cache[x];
   }
 
@@ -16,5 +18,8 @@ var factorial = (function hideTheCache() {
 
 console.log(factorial(6));
 // 720
+
+cache = {};
+
 console.log(factorial(7));
 // 5040

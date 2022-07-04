@@ -3,7 +3,9 @@
 
 // outer/global scope
 function hideTheCache() {
-  // "middle scope", where we hide `cache` var cache = {};
+  // "middle scope", where we hide `cache`
+  var cache = {};
+
   return factorial;
   // **********************
   function factorial(x) {
@@ -12,11 +14,18 @@ function hideTheCache() {
     if (!(x in cache)) {
       cache[x] = x * factorial(x - 1);
     }
+
+    console.log(cache);
+
     return cache[x];
   }
 }
-var factorial = hideTheCache();
-factorial(6);
+var factorial = hideTheCache(); // <-- weird name
+
+console.log(factorial(6));
 // 720
-factorial(7);
+
+cache = {};
+
+console.log(factorial(7));
 // 5040

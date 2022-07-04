@@ -9,18 +9,15 @@ function factorial(x) {
   if (!(x in cache)) {
     cache[x] = x * factorial(x - 1);
   }
+
+  console.log(cache);
+
   return cache[x];
 }
-factorial(6);
+console.log(factorial(6));
 // 720
-console.log(cache);
 
-// {
-// "2": 2,
-// "3": 6,
-// "4": 24,
-// "5": 120,
-//     "6": 720
-// }
-factorial(7);
+cache = {};
+
+console.log(factorial(7));
 // 5040
