@@ -7,7 +7,23 @@ so you have the necessary dependencies
 
 # Functional Programing
 
-I will describe Functional Programing, like the art of make everything with functions and expressions
+I will describe Functional Programing, like the art of make everything with functions and expressions.
+
+Functional programming leads to a more transparent, cleaner code that helps the user in debugging and maintenance, and is fast becoming the go-to method for developers.
+
+# Advantage of FP
+
+- Functional programming are easier to debug.
+  Pure functions always produce the same input -> output and have no external values affecting the end result.
+
+- Functional programming is fully transparent
+  The fact that an expression, in a program, may be replaced by its value (or anything having the same value) without changing the result of the program.
+
+- Enhanced readability of values
+  That is, the advantage of using pure values does not end at the changing of states. The value also ensures that the program is more readable.
+
+- Validating Functional Signatures
+  The pure variables of functional programming language make sure that the signature gives all the information about how the function works, including details on their arguments and other information.
 
 #### The pure functions need to be
 
