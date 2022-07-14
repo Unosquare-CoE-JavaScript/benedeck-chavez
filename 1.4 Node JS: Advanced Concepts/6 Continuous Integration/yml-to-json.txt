@@ -1,0 +1,43 @@
+// yml format
+color: 'red'
+cup: 'red'
+plate: 'red'
+glass: 'green'
+number: 300000
+window: 'clear'
+five : 5
+languagesIKnow:
+   english: 'very well'
+   spanish: 'kind of'
+   german: 'not at all'
+countToFive:
+   - 'one'
+   - 'two'
+   - 'three'
+   - 4
+   - 5
+   - 6
+
+// json format
+{
+  "color": "red",
+  "cup": "red",
+  "plate": "red",
+  "glass": "green",
+  "number": 300000,
+  "window": "clear",
+  "five": 5,
+  "languagesIKnow": {
+    "english": "very well",
+    "spanish": "kind of",
+    "german": "not at all"
+  },
+  "countToFive": [
+    "one",
+    "two",
+    "three",
+    4,
+    5,
+    6
+  ]
+}
